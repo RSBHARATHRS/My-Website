@@ -1,0 +1,33 @@
+.carousel-item{
+    height: 84vh;
+}
+
+#carouselExampleCaptions{
+    background-size: cover;
+  
+}
+
+.carouselContainer{
+    position: relative;
+}
+
+.nameContainer{
+    position: absolute;
+    width: 75vw;
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.nameContainer > h1{
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
+}
+
+.nameContainer > p{
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+}
