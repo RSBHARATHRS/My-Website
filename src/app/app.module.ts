@@ -8,6 +8,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { EducationComponent } from './education/education.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { SocialMediaSidebarComponent } from './social-media-sidebar/social-media-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { EducationComponent } from './education/education.component';
     CarouselComponent,
     ContactFormComponent,
     FooterComponent,
-    EducationComponent
+    EducationComponent,
+    ProjectsComponent,
+    SocialMediaSidebarComponent
   ],
   imports: [
     BrowserModule,

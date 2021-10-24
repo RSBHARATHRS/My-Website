@@ -1,12 +1,11 @@
 .contact{
-    
     width: 70%;
     margin: 0 auto;
     border: 1px solid gray;
 }
 .col-md-3{
     background: #ff9b00;
-    padding: 4%;
+    
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
 }

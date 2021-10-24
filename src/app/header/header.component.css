@@ -3,5 +3,24 @@
     top:0;
     z-index: 2;
     background-color: transparent!important;
+    
 }
 
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 40px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.nav-item > a{
+    font-size: 22px;
+}
+
+.nav-item > .nav-link{
+    transition: all .2s ease;
+}
+
+.nav-item > .nav-link:hover{
+    box-shadow: 2px 2px 8px 1px gray;
+    transform: scale(1.04);
+}
